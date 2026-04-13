@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.bg-section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.bg-section__title {
+    margin-bottom: 15px;
+    color: aqua;
+}
+
+.example-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.example-box {
+    display: flex;
+    width: 200px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: #eaeaea;
+}
+
+.color {
+    background-color: cornflowerblue;
+}
+
+.rgba {
+    background-color: rgb(71, 89, 154, 0.8);
+}
+
+.repeated {
+    width: 200px;
+    height: 150px;
+    background-image: url('https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg');
+    background-size: 50px 50px;
+    background-repeat: repeat;
+}
+
+.cover {
+    width: 200px;
+    height: 150px;
+    background-image: url('https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contain {
+    width: 200px;
+    height: 150px;
+    background-image: url('https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.left {
+    width: 200px;
+    height: 150px;
+    background-image: url('https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-color: aqua;
+}
+
+.center {
+    width: 200px;
+    height: 150px;
+    background-image: url('https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: aqua;
+}
+
+.right {
+    width: 200px;
+    height: 150px;
+    background-image: url('https://habsida-lms.s3.ap-northeast-2.amazonaws.com/webcore/logo.svg');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-color: aqua;
+}
+
+.linear {
+    width: 200px;
+    height: 150px;
+    background: linear-gradient(to right, rgb(0, 255, 136), rgb(0, 255, 255))
+}
+
+.radial {
+    width: 200px;
+    height: 150px;
+    background: radial-gradient(circle, rgb(0,255,136), rgb(0,255,255))
+}
+
+.conic {
+    width: 200px;
+    height: 150px;
+    background: conic-gradient(yellow,red,rgb(189, 11, 189),yellow,red);
+}
+
+.fixed {
+    width: 100%;
+    height: 200px;
+    background-image: url('https://static.wikia.nocookie.net/teenwolf/images/f/fa/Gevaudan-monster2.png/revision/latest?cb=20160426093501&path-prefix=ru');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
